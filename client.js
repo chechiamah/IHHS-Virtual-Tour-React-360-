@@ -9,11 +9,8 @@ function init(bundle, parent, options = {}) {
   r360.renderToSurface(
     r360.createRoot('Slideshow', {
       photos: [
-        {uri: './Virtual Tour/selfportrait.jpg', title: 'Self Portrait', format: '2D'},
-        {uri: './static_assets/stars.jpg', title: 'Starry Night', format: '2D'},
-        {uri: './static_assets/sunflowers.jpg', title: 'Sunflowers', format: '2D'},
-        // Add your own 180 / 360 photos to this array,
-        // with an associated title and format
+        {uri: './Virtual Tour Pics/aud.png', title: 'IHHS Auditorium', format: '2D'},
+        {uri: './Virtual Tour Pics/field.png', title: 'IH Field', format: '2D'},
       ],
     }),
     r360.getDefaultSurface(),
